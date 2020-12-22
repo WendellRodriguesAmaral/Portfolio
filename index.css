@@ -70,6 +70,7 @@ body{
     width: auto;
     max-width: min-content;
     font-size: 4rem;
+    text-align: center;
 }
 .first-image__text p{
     font-size: 1.3rem;
