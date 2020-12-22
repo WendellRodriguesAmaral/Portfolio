@@ -17,9 +17,12 @@
         opacity: 100%;
     }
 }
+html{
+    background-color: rgba(54, 54, 148);
+}
 
 body{
-    width: 100vw;
+    width:100vw;
     height: 100vh;
 }
 main>h1{
@@ -38,7 +41,7 @@ main>h1{
     /* background: url(img/foto-fundo.jpg) no-repeat;
     background-size: cover; 
     background-position: 50% 60%;    */
-    background-color: rgba(54, 54, 148, 0.822);
+    background-color: rgba(54, 54, 148);
     animation-name: op;
     animation-duration: 2s;
     font-weight: 800;
