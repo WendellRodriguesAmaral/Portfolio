@@ -24,7 +24,6 @@ window.addEventListener("load",()=>{ // se quizer usar o "load" , tem q usar o w
 
     document.querySelectorAll("input").forEach((input)=>{// ja recuperando os elementos e fazendo o foreach
         const atr = input.dataset.mask// recuperando o valor do atributo customizado pelo NOME q foi definido no html, 
-        // console.log("teste" , atr)
         input.addEventListener("keyup",()=>{ // fica escutando o "keyup" (aperta e SOLTAR a tecla)
             input.value=masks[atr](input.value)//o valor do input recebe o retorno da função que ele esta acessando dentro do obj "masks". Obs: esta acessando o metodo do obj atraves da chave "masks[atr]"
         })
@@ -35,7 +34,6 @@ window.addEventListener("load",()=>{ // se quizer usar o "load" , tem q usar o w
     document.querySelector("button").addEventListener("click" , ()=>{
         const altura =parseFloat(document.querySelector("input[data-mask='altura']").value.replace(",","."))
         const peso = parseFloat(document.querySelector("input[data-mask='peso']").value.replace(",","."))
-        // console.log(inpt1,inpt2)
         
         calcIMC(altura,peso)// chamando a função      
     })   
