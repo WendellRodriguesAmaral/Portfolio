@@ -38,9 +38,6 @@ main>h1{
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    /* background: url(img/foto-fundo.jpg) no-repeat;
-    background-size: cover; 
-    background-position: 50% 60%;    */
     background-color: rgba(54, 54, 148);
     animation-name: op;
     animation-duration: 2s;
@@ -54,7 +51,6 @@ main>h1{
     display: grid;
     grid-template-rows:auto 1fr;
     border-radius: 15px;
-    /* background-color: rgba(152, 152, 246, 0.616); */
     background-color: rgb(190, 180, 243);
     animation-name: op;
     animation-duration: 1s;
@@ -71,8 +67,6 @@ main>h1{
 .calc .calc-content{
     width: 80%;
     height: 50%;
-    /* border: solid 1px black; */
-    /* margin-top: 5%; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -83,7 +77,6 @@ main>h1{
 
 .calc-content input{
     outline: none;
-    /* border: solid 1px black; */
     background-color: beige;
     width: 23%;
     height: 60%;
@@ -137,7 +130,6 @@ input:focus::placeholder{
 .imc-title{
     width: 100%;
     height: 60px;
-    /* border-bottom: solid 1px black; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -160,7 +152,6 @@ input#result-imc{
     height: 80%;
     text-align: center;
     font-size: 150px;
-    /* background-color: aqua; */
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(190, 180, 243);
     color: rgb(53, 52, 52);
