@@ -418,7 +418,7 @@ body{
         animation-iteration-count: 5;
         animation-direction: alternate;
         /* animation-timing-function:step-start; */
-        background-color:rgba(18, 29, 102, 0.747) ;
+        background-color:rgba(18, 29, 102, 0.918) ;
         color: white;
         transition: .4s;
         font-weight: normal;       
