@@ -96,8 +96,9 @@ body{
     display: flex;
     justify-content: center;
     text-decoration: none;
-    height: 6vh;
-    margin-bottom: 5%;
+    height: 5.5vh;
+    margin-bottom: 1%;
+    margin-top: 2%;
 }
 
 .projeto input{
