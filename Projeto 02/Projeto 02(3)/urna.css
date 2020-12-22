@@ -8,7 +8,6 @@
 
 html{
     background-color:#414141;
-
 }
 body{
     width: 100vw;
@@ -24,6 +23,7 @@ body{
     flex-direction: column;
     justify-content: space-around;
     background-color:#414141;
+  
 
 }
 .cand{
