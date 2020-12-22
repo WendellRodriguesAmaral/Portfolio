@@ -108,7 +108,7 @@ body{
     font-family: 'PT Sans', sans-serif;    
     font-size: 2rem;    
     padding: 10%; 
-    text-align: justify;
+    text-align:justify;
    
 }
 .about-me__text h1{
@@ -359,7 +359,7 @@ body{
         animation-duration:2s;
         animation-iteration-count: infinite;
         animation-direction: alternate;
-        
+        animation-timing-function: ease-in-out;
     }
 
     .about-me{  
