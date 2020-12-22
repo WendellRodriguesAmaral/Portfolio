@@ -181,6 +181,7 @@ body{
     display: flex;
     justify-content: center;
 }
+
 .project-description{
     padding: 2%;
     height: 100%;
@@ -191,7 +192,7 @@ body{
 }
 .project-description h3{
     /* background-color: aqua; */
-    font-size: 20px;
+    font-size: 100%;
 }
 
 
@@ -211,7 +212,7 @@ body{
 }
 
 .project h1{
-    font-size: 2.5rem;
+    font-size: 2rem;
     color: rgb(19, 11, 61);
 }
 
@@ -446,7 +447,7 @@ body{
     
     .project h1{
         margin: 1.5%;
-        font-size: 2rem;
+        font-size: 2.5rem;
         color: rgb(19, 11, 61);
     }
 
