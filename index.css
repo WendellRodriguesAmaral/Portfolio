@@ -109,6 +109,7 @@ body{
     font-size: 2rem;    
     padding: 10%; 
     text-align: justify;
+   
 }
 .about-me__text h1{
     margin-bottom: 8%;
@@ -116,6 +117,7 @@ body{
 .about-me__text .about-me__languages img{
     display: none;
 }
+
 
 /*#################################################
     AQUI ACABA O CONTEUDO CENTRAL
@@ -184,6 +186,7 @@ body{
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
+    overflow: auto;
 }
 .project-button button{
         width: 80vw;
