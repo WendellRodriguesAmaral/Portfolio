@@ -5,7 +5,10 @@
     box-sizing: border-box;
     /* text-decoration: none; */
 }
+html{
+    background: #1B2431;    
 
+}
 body{
     width: 100vw;
     height: 100vh;
