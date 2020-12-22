@@ -133,7 +133,9 @@ body{
         width: 95%;
         height: 70vh;
     }
-
+    .projeto input{
+        opacity: 100%;
+    }
 }
 
 @media screen and (max-width: 500px){
@@ -143,5 +145,8 @@ body{
     .projeto{
         width: 95%;
         height: 50vh;
+    }
+    .projeto input{
+        opacity: 100%;
     }
 }
