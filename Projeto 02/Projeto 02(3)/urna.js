@@ -29,45 +29,42 @@ function clicar(event){ // QUANDO CLICAR JA APARECER O NUMERO CLICADO NO VISOR
     }
 }
 
+
+function Candidato(imagem ,NomeCand,NomePart){
+    img.src=imagem
+    infoCand[0].innerText=NomeCand
+    infoCand[1].innerText=NomePart
+    fotoCand.appendChild(img)
+}
+
+// Candidato("img/Seu_Madruga.png" ,"Seu Madruga","Partido dos Devedores")
+
+
+
+
 let img= document.createElement("img")// criando um elemento usando a tag img e atribuindo a variavel img
 img.setAttribute("id" , "fotoCand") // add um id com o nome "foto"  a img
 
 function ApareceCand(){  // PARA APARECER OS CANDIDATOS NO VISOR
-    if(vis1.value == 1 && vis2.value == 1){
-        img.setAttribute("src" , "img/Seu_Madruga.png")
-        infoCand[0].innerText="Seu Madruga"
-        infoCand[1].innerText="Partido dos Devedores"
-        fotoCand.appendChild(img) // ja que esta função atualiza a cada 1 seg, melhor colocar isso em cada if
+    if(vis1.value == 1 && vis2.value == 1){             
+        Candidato("img/Seu_Madruga.png" ,"Seu Madruga","Partido dos Devedores")
     }
     if(vis1.value == 2 && vis2.value == 5){
-        img.setAttribute("src" , "img/tiririca.png")
-        infoCand[0].innerText="Tiririca"
-        infoCand[1].innerText="Partido Comediante"
-        fotoCand.appendChild(img)
+        Candidato("img/tiririca.png" ,"Tiririca","Partido Comediante")
     }
     if(vis1.value == 7 && vis2.value == 7){
-        img.setAttribute("src" , "img/julius.jpg")
-        infoCand[0].innerText="Julius"
-        infoCand[1].innerText="Coligação Muquiranas"
-        fotoCand.appendChild(img)
+        Candidato("img/julius.jpg" ,"Julius","Coligação Muquiranas")
     }
     if(vis1.value == 3 && vis2.value == 5){
-        img.setAttribute("src" , "img/sergio.jpg")
-        infoCand[0].innerText="Serginho Malandro"
-        infoCand[1].innerText="Partidos dos Malandros"
-        fotoCand.appendChild(img)
+        Candidato("img/sergio.jpg" ,"Serginho Malandro","Partidos dos Malandros")
     }
     if(vis1.value == 4 && vis2.value == 1){
-        img.setAttribute("src" , "img/batman.jpg")
-        infoCand[0].innerText="Batman"
-        infoCand[1].innerText="Partido dos Morcegos"
-        fotoCand.appendChild(img)
+        Candidato("img/batman.jpg" ,"Batman","Partido dos Morcegos")
     }         
 }
 
 function corrige(){
     contvot=0// para impedir q finalize a votação      
-    console.log("testeeeee")
     //limpando todos os campos
     vis1.value=null
     vis2.value=null
