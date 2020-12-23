@@ -10,12 +10,6 @@ let cor=document.getElementById("corrige")
 let audio= new Audio()
 audio.src="audio/confirmação.mp3"
 
-// console.log(tela)
-// console.log(audio)
-// console.log(infoCand)
-// console.log(fotoCand)
-// console.log(vis1,vis2)
-// console.log(botao)
 
 function clicar(event){ // QUANDO CLICAR JA APARECER O NUMERO CLICADO NO VISOR
     botao=event
@@ -36,10 +30,6 @@ function Candidato(imagem ,NomeCand,NomePart){
     infoCand[1].innerText=NomePart
     fotoCand.appendChild(img)
 }
-
-// Candidato("img/Seu_Madruga.png" ,"Seu Madruga","Partido dos Devedores")
-
-
 
 
 let img= document.createElement("img")// criando um elemento usando a tag img e atribuindo a variavel img
