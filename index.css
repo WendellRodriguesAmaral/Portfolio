@@ -464,6 +464,10 @@ body{
         align-items: flex-start;
         padding: 2%;
     }
+    .project-description h3{
+        /* background-color: aqua; */
+        font-size: 120%;
+    }
 
     .project-button{
         display: flex;
@@ -503,7 +507,16 @@ body{
         }
 
     .my-projects__view-contact {
+        display: block;
+        margin-top: -3%;
+    }
+    .my-projects__view-contact>a ,#more-projects {
         display: none;
     }
-
+    .my-projects__view-contact h2,span {
+        font-size: 110%;
+    }
+    .my-projects__view-contact span.email{
+        font-size: 1rem;
+    }
 }
