@@ -262,7 +262,7 @@ body{
    .first-image #projeto{
        display: inline;
        position: absolute;
-       /* background-color: turquoise; */
+
        font-size: 1.3rem;
        top: 9%;
        left: 2%;
