@@ -140,21 +140,6 @@ body{
     flex-direction: column;
 }
 
-/*   .classe::after{
-        content=""
-        heigth=100%;
-        width=0%;
-        backgtound: ...;
-        transition= .4s;
-    }
-
-    .classe:hover::after{
-        witdh=100%
-    }
-*/
-
-
-
 .my-projects__view h1{
     font-family: 'PT Sans', sans-serif;    
     font-size: 3.5rem;
