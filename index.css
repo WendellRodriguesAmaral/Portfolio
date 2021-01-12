@@ -370,7 +370,6 @@ body{
         display: flex;        
         flex-direction: row;
         background-color: rgba(212, 211, 211, 0.781);
-        /* padding-bottom: 10%; */
     }
     .about-me__image{
         display: flex;
