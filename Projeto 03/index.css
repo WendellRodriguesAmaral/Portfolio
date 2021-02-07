@@ -242,8 +242,9 @@ li>a:hover{
     justify-content: center;
     align-items: center;
     font-family:'Open Sans Condensed', sans-serif;
-    letter-spacing: 3px;
-    font-size: 150%;   
+    letter-spacing:1.5px;
+    font-size: 149%;  
+    text-align: center; 
 }
 
 .works-item-text{
